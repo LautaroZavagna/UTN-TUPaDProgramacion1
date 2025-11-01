@@ -1,0 +1,14 @@
+#Crear una función llamada calcular_imc(peso, altura) que reciba el peso en kilogramos y la altura en metros, y devuelva el índice de masa corporal (IMC).
+#Solicitar al usuario los datos y llamar a la función para mostrar el resultado con dos decimales.
+
+def calcular_imc(peso, altura):
+    return peso / (altura)**2
+
+peso = float(input("Ingrese el peso en KG: "))
+altura = float(input("Ingrese la altura en metros: "))
+
+#Asignamos el resultado a una variable
+imc = calcular_imc(peso, altura)
+imc = round(imc, 2) #Redondeamos la variable a 2 numeros despues de la coma
+
+print(f"El IMC es {imc}")

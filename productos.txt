@@ -1,0 +1,3 @@
+Lapiz,100,20
+Borrador,50,15 
+Pegamento,200,14 
